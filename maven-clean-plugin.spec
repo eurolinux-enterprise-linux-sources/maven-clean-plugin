@@ -1,6 +1,6 @@
 Name:           maven-clean-plugin
 Version:        2.5
-Release:        7%{?dist}
+Release:        8%{?dist}
 Summary:        Maven Clean Plugin
 
 Group:          Development/Libraries
@@ -52,6 +52,9 @@ API documentation for %{name}.
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.5-8
+- Mass rebuild 2013-12-27
+
 * Thu Aug 22 2013 Michal Srb <msrb@redhat.com> - 2.5-7
 - Migrate away from mvn-rpmbuild (Resolves: rhbz#997470)
 
